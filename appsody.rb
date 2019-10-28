@@ -1,9 +1,9 @@
 class Appsody < Formula
   desc "The Appsody command-line interface"
   homepage "https://www.appsody.dev"
-  url "https://github.com/appsody/appsody/releases/download/0.2.5/appsody-homebrew-0.2.5.tar.gz"
-  # version "0.2.5"
-  sha256 "44b3f2c1de5e7ee30e0c648f59bdff56215fd123868511458fb5e26278a40788"
+  url "https://github.com/chilanti/appsody/releases/download/0.4.9/appsody-homebrew-0.4.9.tar.gz"
+  # version "0.4.9"
+  sha256 "6f05dfca4b53bc55d319e8881a6ce9850596adb06914139c9a346c8c8888fa9a"
 
   def install
     bin.install "appsody"
